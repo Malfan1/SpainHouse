@@ -1,0 +1,10 @@
+@import "vars";
+@import "root";
+@import "mixins/utilites";
+@import "normalize";
+
+@import "../layouts/layout_000/index";
+
+@media(min-width: 1200px){
+    @import "../layouts/layout_1200/index";
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display+SC:wght@400;700&display=swap');
+$prefix: artem- !default;
+$path: "../../images/";
+
+/* fonts */
+
+$fontOpenSans: "Open Sans";
+$fontPlayfair: "Playfair Display SC";
+
+/* colors */
+
+$white: #fff;
+$black: #000;
+$footer: #808080;
+
+$colors: (
+    "white": $white,
+    "black": $black,
+    "footer": $footer,
+)!default;

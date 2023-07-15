@@ -1,0 +1,12 @@
+.main-sec{
+    &__bg{
+        width: 100%;
+        min-height: 812px;
+
+        &>img{
+            width: inherit;
+            height: inherit;
+        }
+    }
+
+}

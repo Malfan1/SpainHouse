@@ -1,0 +1,21 @@
+.footer{
+    padding: 28px 58px 13px;
+    background: var(--#{$prefix}color-footer);
+
+    &__flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__social{
+        display: flex;
+    } 
+
+    &__words{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--#{$prefix}color-white);
+    }
+}
