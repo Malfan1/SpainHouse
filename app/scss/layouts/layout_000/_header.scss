@@ -1,8 +1,9 @@
 .header{
     position: absolute;
+    z-index: 5;
     padding: 33px 22px 0 22px;
-    width: 100%;
-    
+    left: 0;
+    right: 0;
     &__flex{
         display: flex;
     }

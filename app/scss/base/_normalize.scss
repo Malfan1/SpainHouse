@@ -10,7 +10,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: var(--#{$prefix}font-open-sans);
+    font-family: var(--#{$prefix}font-open-sans);
 }
 
 a{

@@ -1,0 +1,18 @@
+.foto{
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-top: 1px solid var(--#{$prefix}color-border);
+    border-bottom: 1px solid var(--#{$prefix}color-border);
+    margin-bottom: 35px;
+
+    &__wrapper{
+        width: 100%;
+        height: 100%;
+        box-shadow: 9px 9px 12px 0px rgba(0, 0, 0, 0.19);
+
+        &>img{
+            width: inherit;
+            height: inherit;
+        }
+    }
+}
