@@ -1,0 +1,43 @@
+.insta{
+    min-width: 100%;
+    margin-bottom: 56px;
+    &__flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    &__wrapper-for-svg{
+        margin-bottom: 18px;
+    }
+
+    &__h2{
+        @include h2(35px, 12px)
+    }
+
+    &__name{
+        margin-bottom: 36px;
+    }
+
+    &__wrapper{
+        width: 100%;
+        height: 100%;
+
+        &>img{
+            width: inherit;
+            height: inherit;
+        }
+    }
+
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 15px;
+        row-gap: 14px;
+        margin-bottom: 61px;
+    }
+
+    @include btn(12px, 19px)    
+}

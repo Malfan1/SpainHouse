@@ -8,3 +8,21 @@
     text-transform: uppercase;
     margin-bottom: $mb;
 }
+
+@mixin btn($ptb, $plr){
+&__btn {
+    padding: $ptb $plr;
+    background: var(--#{$prefix}color-btn-bg);
+    max-width: 286px;
+    align-self: center;
+
+        &-a {
+            font-family: var(--#{$prefix}font-playfair);
+            font-size: 17px;
+            font-weight: 700;
+            letter-spacing: 3.4px;
+            text-transform: uppercase;
+            color: var(--#{$prefix}color-white);
+        }
+    }
+}
