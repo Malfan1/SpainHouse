@@ -1,2 +1,6 @@
 .my-container{
 }
+
+.main-sec__bg2{
+   @include bg(url("../../../images/sec-main.png"))
+}

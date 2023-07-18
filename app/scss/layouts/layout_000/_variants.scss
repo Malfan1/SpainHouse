@@ -1,0 +1,39 @@
+.variants{
+    margin-bottom: 62px;
+    &__flex{
+        padding-inline: 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__card{
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.20);
+        margin-bottom: 35px;
+    }
+
+    &__p{
+        border: 1px solid var(--#{$prefix}color-border);
+        padding: 12px 81px;
+        text-align: center;
+        color: var(--#{$prefix}color-h2);
+        font-family: var(--#{$prefix}font-playfair);
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &__wrapper{
+        width: 100%;
+        height: 100%;
+
+        &>img{
+            width: inherit;
+            height: inherit;
+        }
+
+        &-name{
+            padding: 10px 9px;
+        }
+    }
+}

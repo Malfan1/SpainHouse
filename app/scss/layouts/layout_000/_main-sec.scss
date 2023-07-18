@@ -1,16 +1,12 @@
 .main-sec{
     position: relative;
     margin-bottom: 35px;
+
+    &2{
+        margin-bottom: 58px;
+    }
     &__bg{
-        // width: 100%;
-        min-height: 812px;
-        background: url("../../../images/main-foto-mob.png") no-repeat;
-        background-size: cover;
-        background-position: center bottom;        
-        &>img{
-            width: inherit;
-            height: inherit;
-        }
+        @include bg(url("../../../images/main-foto-mob.png"));
     }
     
     &__words{
@@ -43,5 +39,11 @@
         text-transform: uppercase;
         width: 310px;
         text-align: center;
+        margin-bottom: 292px;
+
+        &-under{
+            font-size: 12px;
+            font-weight: 700;
+        }
     }
 }
