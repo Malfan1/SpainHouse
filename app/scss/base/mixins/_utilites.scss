@@ -32,4 +32,5 @@
     background-image: $url;
     background-size: cover;
     min-height: 812px;
+    @content;
 }

@@ -4,3 +4,8 @@
 .main-sec__bg2{
    @include bg(url("../../../images/sec-main.png"))
 }
+
+.main-sec__bg3 {
+   @include bg(url("../../../images/region-foto.png"));
+   background-position: 50% 50%;
+}

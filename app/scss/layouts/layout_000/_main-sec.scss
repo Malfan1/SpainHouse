@@ -23,6 +23,10 @@
             transform: translateX(50%);
             bottom: 17px;
         }
+
+        &2{
+            padding-top: 373px;
+        }
     }
     
     &__h1{
@@ -30,6 +34,10 @@
         font-weight: 700;
         font-family: var(--#{$prefix}font-playfair);
         margin-bottom: 9px;
+
+        &-2{
+            margin-bottom: 325px;
+        }
     }
 
     &__p{
