@@ -3,9 +3,12 @@
     &__flex{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     &__input{
+        width: 100%;
         padding: 15px 22px;
         border: 1px solid var(--#{$prefix}color-border);
         margin-bottom: 15px;
@@ -13,6 +16,7 @@
     }
 
     &__select{
+        width: 100%;
         border: 1px solid var(--#{$prefix}color-border);
         outline: none;
         padding-inline: 15px 22px;
@@ -22,4 +26,32 @@
             display: block;
         }
     }
+
+    &__btn{
+        padding: 9px 30px;
+        background: var(--#{$prefix}color-border);
+        margin-bottom: 37px;
+    }
+
+    &__btns{
+        display: flex;
+    }
+
+    &__pag{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 43px;
+        height: 42px;
+        background: var(--#{$prefix}color-bg-pag);
+        margin-right: 4px;
+        border-radius: 3px;
+        color: var(--#{$prefix}color-h2);
+    }
+    margin-bottom: 38px;
+}
+
+.active{
+    background: var(--#{$prefix}color-h2);
+    color: var(--#{$prefix}color-white);
 }
