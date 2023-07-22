@@ -10,7 +10,7 @@
     }
     
     &__words{
-        padding-top: 337px;
+        padding-top: 332px;
         color: var(--#{$prefix}color-white);
         display: flex;
         flex-direction: column;
@@ -27,13 +27,19 @@
         &2{
             padding-top: 373px;
         }
+
+        &3{
+            padding-top: 316px;
+        }
     }
     
     &__h1{
+        width: 280px;
         font-size: 35px;
         font-weight: 700;
         font-family: var(--#{$prefix}font-playfair);
         margin-bottom: 9px;
+        text-align: center;
 
         &-2{
             margin-bottom: 325px;
@@ -52,6 +58,10 @@
         &-under{
             font-size: 12px;
             font-weight: 700;
+        }
+
+        &2{
+            margin-bottom: 260px;
         }
     }
 }

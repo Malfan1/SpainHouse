@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.min.css" />
@@ -14,7 +13,6 @@
   </head>
   <body>
     <div class="wrapper">
-      <!-- header mobile-->
       <header class="header">
         <div class="my-container">
           <div class="header__flex">
@@ -43,7 +41,7 @@
           </div>
           <nav class="nav-mob__nav mb-4">
             <ul class="nav-mob__ul">
-              <li class="nav-mob__li"><a href="#">Главная</a></li>
+              <li class="nav-mob__li"><a href="index.html">Главная</a></li>
               <li class="nav-mob__li">
                 <a href="new-build.html">новостройки</a>
               </li>
@@ -71,43 +69,40 @@
         </div>
       </nav>
 
-      <!-- main -->
       <main class="main">
         <section class="main-sec">
-          <div class="main-sec__bg">
-            <div class="main-sec__words">
-              <h1 class="main-sec__h1">Spain House</h1>
-              <p class="main-sec__p">
+          <div class="main-sec__bg4">
+            <div class="main-sec__words main-sec__words3">
+              <h1 class="main-sec__h1">Вторичная недвижимость</h1>
+              <p class="main-sec__p main-sec__p2">
                 РАССКАЖИТЕ НАМ О ЖИЗНИ ВАШЕЙ МЕЧТЫ, И МЫ НАЙДЕМ ЕЕ ДЛЯ ВАС
               </p>
+              <p class="main-sec__p-under">посмотреть объекты</p>
             </div>
           </div>
         </section>
 
-        <section class="about">
+        <section class="find">
           <div class="my-container">
-            <div class="about__flex">
-              <h2 class="about__h2">О нас</h2>
-              <p class="about__p">
-                SPAIN HOUSE - ваш консультант по недвижимости на южном побережье
-                Испании. Наш 10-летний опыт дает нам возможность устанавливать
-                высокие стандарты, добиваясь фантастических результатов, работая
-                большой профессиональной командой, где с первых дней работы
-                основной траекторией для развития стали честность и абсолютное
-                желание помогать клиентам, улучшая их жизнь. Обращаясь к нам, Вы
-                можете быть уверены, что получите лучший совет и решение, с
-                учетом всех Ваших потребностей. Ведь приоритет и задача для нас
-                - найти дом Вашей мечты.
-              </p>
-              <p class="about__p-sub">будем рады помочь вам!</p>
-            </div>
-          </div>
-        </section>
-
-        <section class="foto">
-          <div class="my-container">
-            <div class="foto__wrapper">
-              <img src="images/foto.png" alt="" />
+            <div class="find__flex">
+              <input class="find__input" type="text" placeholder="Артикул" />
+              <select class="find__select" name="select">
+                <option value="value1">Все типы</option>
+                <option value="value2" selected>Квартира</option>
+                <option value="value3">Таунхаус</option>
+                <option value="value3">Дом</option>
+              </select>
+              <button class="find__btn"><a href="#">Поиск</a></button>
+              <div class="find__btns">
+                <p class="find__pag">
+                  <img src="images/next.svg" alt="" />
+                </p>
+                <p class="find__pag active">1</p>
+                <p class="find__pag">2</p>
+                <p class="find__pag">
+                  <img src="images/next1.svg" alt="" />
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -115,7 +110,6 @@
         <section class="recommend">
           <div class="my-container">
             <div class="recommend__flex">
-              <h2 class="recommend__h2">Рекомендуемые объекты</h2>
               <div class="recommend__card">
                 <div class="recommend__wrapper">
                   <img src="images/obj_1.png" alt="" />
@@ -203,93 +197,21 @@
                   </div>
                 </div>
               </div>
-
-              <button class="recommend__btn">
-                <a class="recommend__btn-a" href="#">весь каталог</a>
-              </button>
-            </div>
-          </div>
-        </section>
-
-        <section class="insta">
-          <div class="container">
-            <div class="insta__flex">
-              <div class="insta__wrapper-for-svg">
-                <img src="images/inst1.svg" alt="" />
+              <div class="find__btns">
+                <p class="find__pag">
+                  <img src="images/next.svg" alt="" />
+                </p>
+                <p class="find__pag active">1</p>
+                <p class="find__pag">2</p>
+                <p class="find__pag">
+                  <img src="images/next1.svg" alt="" />
+                </p>
               </div>
-              <h2 class="insta__h2">Instagram</h2>
-              <p class="insta__name">@realestate_spain_ekaterina</p>
-              <div class="insta__grid">
-                <div class="insta__wrapper">
-                  <img src="images/image_1.png" alt="" />
-                </div>
-                <div class="insta__wrapper">
-                  <img src="images/image_2.png" alt="" />
-                </div>
-                <div class="insta__wrapper">
-                  <img src="images/image_3.png" alt="" />
-                </div>
-                <div class="insta__wrapper">
-                  <img src="images/image_4.png" alt="" />
-                </div>
-                <div class="insta__wrapper">
-                  <img src="images/image_5.png" alt="" />
-                </div>
-                <div class="insta__wrapper">
-                  <img src="images/image_6.png" alt="" />
-                </div>
-                <div class="insta__wrapper">
-                  <img src="images/image_7.png" alt="" />
-                </div>
-                <div class="insta__wrapper">
-                  <img src="images/image_8.png" alt="" />
-                </div>
-                <div class="insta__wrapper">
-                  <img src="images/image_9.png" alt="" />
-                </div>
-              </div>
-
-              <button class="insta__btn">
-                <a class="insta__btn-a" href="#">смотреть больше</a>
-              </button>
-            </div>
-          </div>
-        </section>
-
-        <section class="foto foto2">
-          <div class="my-container">
-            <div class="foto__wrapper">
-              <img src="images/foto2.png" alt="" />
-            </div>
-          </div>
-        </section>
-
-        <section class="last">
-          <div class="my-container">
-            <div class="last__flex">
-              <p class="last__word-first">
-                Основатель компании
-                <span class="last__word-first_spain">Spain House</span>, эксперт
-                по недвижимости
-              </p>
-              <p class="last__word-second">
-                Планируете ли вы переехать в Марбелью или купить дом для отдыха,
-                мы в SPAIN HOUSE внесем решающий вклад, поставив ваши уникальные
-                потребности в центр внимания.
-              </p>
-              <p class="last__word-third">
-                LanguageS: RUSSIAN, English, Spanish.
-              </p>
-
-              <button class="last__btn">
-                <a class="last__btn-a" href="#">контакты</a>
-              </button>
             </div>
           </div>
         </section>
       </main>
 
-      <!-- footer -->
       <footer class="footer">
         <div class="my-container">
           <div class="footer__flex">
@@ -308,6 +230,6 @@
       </footer>
     </div>
 
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
