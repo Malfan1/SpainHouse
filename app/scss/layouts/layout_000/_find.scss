@@ -31,6 +31,13 @@
         padding: 9px 30px;
         background: var(--#{$prefix}color-border);
         margin-bottom: 37px;
+        color: var(--#{$prefix}color-white);
+        font-family: var(--#{$prefix}font-playfair);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
     }
 
     &__btns{

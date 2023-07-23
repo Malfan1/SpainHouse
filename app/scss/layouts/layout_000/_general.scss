@@ -14,3 +14,8 @@
    @include bg(url("../../../images/second.png"));
    background-position: 38% 50%;
 }
+
+.main-sec__bg5 {
+   @include bg(url("../../../images/rent.png"));
+   background-position: 50% 50%;
+}
