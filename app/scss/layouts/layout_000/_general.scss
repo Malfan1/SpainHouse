@@ -19,3 +19,8 @@
    @include bg(url("../../../images/rent.png"));
    background-position: 50% 50%;
 }
+
+.main-sec__bg6 {
+   @include bg(url("../../../images/earth.png"));
+   background-position: 60% 0%;
+}
