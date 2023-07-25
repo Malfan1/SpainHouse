@@ -24,3 +24,8 @@
    @include bg(url("../../../images/earth.png"));
    background-position: 60% 0%;
 }
+
+.main-sec__bg7 {
+   @include bg(url("../../../images/contact.png"));
+   background-position: 70% 0;
+}

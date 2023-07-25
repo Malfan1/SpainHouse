@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="my-container">
+          <div class="header__flex">
+            <div class="header__logo">
+              <img src="images/logo-mob.svg" alt="" />
+            </div>
+            <div class="header__burger">
+              <img class="js-burger" id="burger" src="images/menu.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <nav class="nav-mob js-navmob">
+        <div class="nav-mob__block">
+          <div class="nav-mob__wrapper-svg">
+            <img class="js-close" src="images/x.svg" alt="" />
+          </div>
+          <div class="nav-mob__flex">
+            <div class="nav-mob__lang">
+              <span class="nav-mob__lang-sel">En</span>
+              <span class="nav-mob__lang-sel">Ru</span>
+              <span class="nav-mob__lang-sel">Es</span>
+            </div>
+            <h2 class="nav-mob__h2">Добро пожаловать в Spain House</h2>
+          </div>
+          <nav class="nav-mob__nav mb-4">
+            <ul class="nav-mob__ul">
+              <li class="nav-mob__li"><a href="index.html">Главная</a></li>
+              <li class="nav-mob__li">
+                <a href="new-build.html">новостройки</a>
+              </li>
+              <li class="nav-mob__li">
+                <a href="second.html">вторичная недвижимость</a>
+              </li>
+              <li class="nav-mob__li"><a href="rent.html">аренда</a></li>
+              <li class="nav-mob__li"><a href="#">земельные участки</a></li>
+              <li class="nav-mob__li"><a href="#">контакты</a></li>
+            </ul>
+          </nav>
+          <div class="nav-mob__numbers ml-8 mb-24">
+            <p class="nav-mob__num mb-4">+34 951 120 365</p>
+            <p class="nav-mob__num mb-4">+79 951 120 365</p>
+            <p class="nav-mob__num mb-4">+79 951 120 365</p>
+          </div>
+
+          <div class="nav-mob__socials">
+            <div class="nav-mob__wrapper mr-5">
+              <img src="images/instanav.svg" alt="" />
+            </div>
+            <div class="nav-mob__wrapper">
+              <img src="images/facenav.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main">
+        <section class="main-sec main-sec2">
+          <div class="main-sec__bg7">
+            <div class="main-sec__words">
+              <h2 class="main-sec__h1">Екатерина Кузьмина</h2>
+              <p class="main-sec__p main-sec__p2">company owner</p>
+              <p class="main-sec__p-under main-sec__p-under_upper">контакты</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="history">
+          <div class="my-container">
+            <div class="history__flex">
+              <p class="history__main mb-12">
+                Я решил переехать в Испанию еще в 2008 году. Пройдя через
+                Барселону, Мадрид и Валенсию, я наконец откр ыл для себя жизнь
+                мечты, которой можно наслаждаться в Марбелье в 2012 году, и с
+                тех пор не переезжала!
+              </p>
+              <p class="history__main mb-8">
+                Имея опыт работы в секторе недвижимости в
+                инвестиционно-банковской фирме, я понял, что моя обширная сеть
+                контактов в этой области дает мне возможность добиться чего-то
+                большего. Вступив в отрасль недвижимости в 2015 году, я получил
+                шанс стать соучредителем компании Prime Realty Marbella в 2016
+                году, и с тех пор это безупречный успех!
+              </p>
+              <p class="history__lang">LanguageS: RUSSIAN, English, Spanish.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="foto foto2">
+          <div class="my-container">
+            <div class="foto__wrapper">
+              <img src="images/foto2.png" alt="" />
+            </div>
+          </div>
+        </section>
+
+        <section class="interest">
+          <div class="my-container">
+            <div class="interest__out">
+              <div class="interest__inner">
+                <h2 class="interest__h2">Заинтересовал объект?</h2>
+                <p class="interest__under">
+                  Для получения дополнительной информации об этом объекте,
+                  пожалуйста, заполните форму ниже или позвоните нам.
+                </p>
+                <ul class="interest__numbers">
+                  <li class="interest__number">+79 951 120 365</li>
+                  <li class="interest__number">+34 951 120 365</li>
+                  <li class="interest__number">+79 951 120 365</li>
+                </ul>
+
+                <input
+                  class="interest__input interest__input-text"
+                  type="text"
+                  placeholder="Артикул: R3304693"
+                />
+                <input
+                  class="interest__input interest__input-text"
+                  type="text"
+                  placeholder="Имя*"
+                />
+                <input
+                  class="interest__input interest__input-text"
+                  type="text"
+                  placeholder="Email адрес*"
+                />
+                <input
+                  class="interest__input interest__input-text"
+                  type="text"
+                  placeholder="Номер телефона*"
+                />
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Сообщение*"
+                ></textarea>
+                <label for="yes">
+                  <input type="checkbox" id="yes" />
+                  <p class="interest__rules">
+                    я принимаю политику конфиденциальности
+                  </p>
+                </label>
+                <button class="interest__btn"><a href="#">Отправить</a></button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="my-container">
+          <div class="footer__flex">
+            <div class="footer__logo mb-8">
+              <img src="images/logo-footer.svg" alt="" />
+            </div>
+            <div class="footer__social mb-8">
+              <img class="mr-8" src="images/inst.svg" alt="" />
+              <img src="images/facebook.svg" alt="" />
+            </div>
+            <p class="footer__words">
+              © Все права защищены. <br />Агентство недвижимости Spain House
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

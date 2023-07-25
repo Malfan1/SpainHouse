@@ -1,0 +1,45 @@
+.interest{
+    padding-inline: 16px;
+
+    &__inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--#{$prefix}color-border);
+        padding-inline: 7px;
+        text-align: center;
+    }
+
+    &__h2{
+        color: var(--#{$prefix}color-h2);
+        font-family: var(--#{$prefix}font-playfair);
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+
+    &__under{
+        color: var(--#{$prefix}color-h2);
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 17px;
+    }
+
+    &__numbers{
+        margin-bottom: 27px;
+        font-weight: 600;
+        color: var(--#{$prefix}color-h2);
+    }
+
+    &__input{
+        border: 0.5px solid var(--#{$prefix}color-border);
+        &-text::placeholder{
+            font-size: 14px;
+            color: var(--#{$prefix}color-h2);
+        }
+    }
+}

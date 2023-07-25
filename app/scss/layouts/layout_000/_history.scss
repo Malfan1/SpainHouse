@@ -1,0 +1,15 @@
+.history{
+    margin-bottom: 36px;
+    padding-inline: 29px 19px;
+
+    &__main{
+        line-height: 28px;
+    }
+
+    &__lang{
+        color: var(--#{$prefix}color-h2);
+        line-height: 28px;
+        text-transform: uppercase;
+    }
+    
+}
