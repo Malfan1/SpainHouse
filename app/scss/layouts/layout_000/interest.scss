@@ -1,6 +1,12 @@
 .interest{
     padding-inline: 16px;
-
+    margin-bottom: 53px;
+    
+    &__out{
+        box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.30);
+        padding: 12px;
+    }
+    
     &__inner{
         display: flex;
         flex-direction: column;
@@ -8,6 +14,7 @@
         align-items: center;
         border: 1px solid var(--#{$prefix}color-border);
         padding-inline: 7px;
+        padding-bottom: 28px;
         text-align: center;
     }
 
@@ -33,13 +40,70 @@
         margin-bottom: 27px;
         font-weight: 600;
         color: var(--#{$prefix}color-h2);
+        position: relative;
+
+        &:first-of-type{
+            &::before{
+                content: "";
+                position: absolute;
+                display: inline-block;
+                background: url("../../../images/whatsapp.svg") no-repeat;
+                width: 21px;
+                height: 21px;
+                left: -25px;
+                top: 1px;
+            }
+        }
     }
 
     &__input{
+        margin-bottom: 17px;
+        width: 100%;
+        padding-block: 5px;
+        padding-left: 10px;
         border: 0.5px solid var(--#{$prefix}color-border);
         &-text::placeholder{
             font-size: 14px;
             color: var(--#{$prefix}color-h2);
         }
+
+        &_check{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 6px;
+        }
     }
+
+    &__textarea{
+        width: 100%;
+        padding-top: 4px;
+        padding-left: 10px;
+        min-height: 79px;
+        resize: none;
+        border: 0.5px solid var(--#{$prefix}color-border);
+        margin-bottom: 13px;
+            &::placeholder {
+                font-size: 14px;
+                color: var(--#{$prefix}color-h2);
+            }
+    }
+
+    &__rules{
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: capitalize;
+
+        &_line{
+            text-decoration: underline;
+        }
+    }
+
+    &__label{
+        margin-bottom: 24px;
+    }
+
+    @include btn(9px, 36px);
 }

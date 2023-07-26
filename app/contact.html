@@ -147,19 +147,26 @@
                   placeholder="Номер телефона*"
                 />
                 <textarea
-                  name=""
-                  id=""
-                  cols="30"
-                  rows="10"
+                  class="interest__textarea"
                   placeholder="Сообщение*"
+                  class=""
                 ></textarea>
-                <label for="yes">
-                  <input type="checkbox" id="yes" />
+                <label class="interest__label" for="yes">
+                  <input
+                    class="interest__input_check"
+                    type="checkbox"
+                    id="yes"
+                  />
                   <p class="interest__rules">
-                    я принимаю политику конфиденциальности
+                    я принимаю
+                    <span class="interest__rules_line"
+                      >политику конфиденциальности</span
+                    >
                   </p>
                 </label>
-                <button class="interest__btn"><a href="#">Отправить</a></button>
+                <button class="interest__btn">
+                  <a class="interest__btn-a" href="#">Отправить</a>
+                </button>
               </div>
             </div>
           </div>
@@ -183,5 +190,6 @@
         </div>
       </footer>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
