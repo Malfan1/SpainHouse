@@ -13,3 +13,18 @@ function handleScroll({ target }) {
         return;
     }
 }
+
+$('.view__photos').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.view__photos-big',
+    arrows: false,
+});
+
+ $('.view__photos-big').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.view__photos'
+});

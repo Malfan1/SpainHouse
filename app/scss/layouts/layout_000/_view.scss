@@ -1,0 +1,28 @@
+.view{
+    padding-inline: 16px;
+    margin-bottom: 15px;
+    &__h2{
+        @include h2(30px, 26px);
+        font-weight: 700;
+    }
+
+    &__photos{
+        &-big{
+            margin-bottom: 6px;
+        }
+    }
+
+    &__wrapper{
+        margin-right: 7px;
+        width: 123px;
+        &-big{
+            width: 100%;
+        }
+    }
+
+    &__img{
+        width: inherit;
+        display: flex;
+        margin: auto;
+    }
+}
