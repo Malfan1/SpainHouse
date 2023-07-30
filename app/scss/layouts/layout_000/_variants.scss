@@ -15,12 +15,13 @@
 
     &__p{
         border: 1px solid var(--#{$prefix}color-border);
-        padding: 12px 81px;
         text-align: center;
         color: var(--#{$prefix}color-h2);
         font-family: var(--#{$prefix}font-playfair);
         font-size: 24px;
         font-weight: 700;
+        width: 100%;
+        padding-block: 12px;
     }
 
     &__wrapper{

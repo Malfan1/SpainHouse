@@ -40,19 +40,17 @@
         margin-bottom: 27px;
         font-weight: 600;
         color: var(--#{$prefix}color-h2);
-        position: relative;
 
-        &:first-of-type{
-            &::before{
-                content: "";
-                position: absolute;
-                display: inline-block;
-                background: url("../../../images/whatsapp.svg") no-repeat;
-                width: 21px;
-                height: 21px;
-                left: -25px;
-                top: 1px;
-            }
+        &:nth-child(1){
+            &::before {
+                    content: "";
+                    display: inline-block;
+                    background: url("../../../images/whatsapp.svg") no-repeat;
+                    width: 21px;
+                    height: 21px;
+                    left: -25px;
+                    top: 1px;
+                }
         }
     }
 
