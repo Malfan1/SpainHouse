@@ -1,0 +1,26 @@
+.main-sec{
+    
+    &__words{
+        padding: 201px;
+        &::after {
+            content: "";
+        }
+    }
+    
+    
+    &__h1{
+        font-size: 95px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    &__p{
+        font-size: 18px;
+        width: 518px;
+        margin: 0;
+
+        &-under{
+            display: none;
+        }
+    }
+}
