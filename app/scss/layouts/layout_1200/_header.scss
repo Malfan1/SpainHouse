@@ -9,6 +9,93 @@
     height: 87px;
 
     &__flex{
+        display: flex;
         padding-top: 17px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__logo{
+    }
+
+    &__lang{
+        display: flex;
+        margin-right: 45px;
+    }
+
+    &__l{
+        margin-right: 11px;
+        color: var(--#{$prefix}color-lang);
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+    &__numbers{
+        display: flex;
+        margin-left: auto;
+        margin-right: 69px;
+    }
+
+    &__number{
+        &:nth-child(1) {
+            margin-right: 59px;
+            position: relative;
+            &::before{
+                content: "";
+                position: absolute;
+                left: -27px;
+                top: 2px;
+                background: url("../../../images/whatsapp.svg") no-repeat;
+                width: 21px;
+                height: 21px;
+                display: inline-block;
+                background-position: contain;
+            }
+        }
+
+        &:nth-child(2) {
+            margin-right: 83px;
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                left: -27px;
+                top: 2px;
+                background: url("../../../images/call.svg") no-repeat;
+                width: 21px;
+                height: 21px;
+                display: inline-block;
+                background-position: contain;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                right: -27px;
+                top: 2px;
+                background: url("../../../images/spain.svg") no-repeat;
+                width: 21px;
+                height: 21px;
+                display: inline-block;
+                background-position: contain;
+            }
+        }
+
+        &:nth-child(3){
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                left: -27px;
+                top: 2px;
+                background: url("../../../images/call.svg") no-repeat;
+                width: 21px;
+                height: 21px;
+                display: inline-block;
+                background-position: contain;
+            }
+        }
     }
 }
