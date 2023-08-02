@@ -30,6 +30,7 @@
 
 @mixin bg($url){
     background-image: $url;
+    background-repeat: no-repeat;
     background-size: cover;
     min-height: 812px;
     @content;

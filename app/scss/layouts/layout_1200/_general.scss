@@ -1,7 +1,47 @@
 .my-container{
+}
 
+.main-sec__bg {
+    background-size: cover;
+    min-height: 657px;
 }
 
 .main-sec__bg2 {
-    background-position: 100% 100%;
+    background-position: 70% 70%;
+    min-height: 657px;
+}
+
+.main-sec__bg3 {
+    background-position: 50% 50%;
+    min-height: 657px;
+}
+
+.main-sec__bg4 {
+    background-position: 38% 50%;
+    min-height: 657px;
+}
+
+.main-sec__bg5 {
+    background-position: 50% 50%;
+    min-height: 657px;
+}
+
+.main-sec__bg6 {
+    background-position: 60% 0%;
+    min-height: 657px;
+}
+
+.main-sec__bg7 {
+    background-position: 70% 0;
+    min-height: 657px;
+}
+
+.main{
+    &__flex{
+        margin-top: 74px;
+        margin-bottom: 45px;
+        padding-inline: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
 }

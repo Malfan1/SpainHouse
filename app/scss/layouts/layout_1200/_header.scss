@@ -96,6 +96,18 @@
                 display: inline-block;
                 background-position: contain;
             }
+
+            &::after {
+                content: "";
+                position: absolute;
+                right: -27px;
+                top: 2px;
+                background: url("../../../images/ru.svg") no-repeat;
+                width: 21px;
+                height: 21px;
+                display: inline-block;
+                background-position: contain;
+            }
         }
     }
 }

@@ -1,12 +1,14 @@
-.main-sec{
-    
+.main-sec{    
     &__words{
-        padding: 201px;
+        padding-top: 201px;
         &::after {
             content: "";
         }
+
+        &-2{
+            padding-top: 174px;
+        }
     }
-    
     
     &__h1{
         font-size: 95px;
@@ -16,7 +18,7 @@
 
     &__p{
         font-size: 18px;
-        width: 518px;
+        width: 435px;
         margin: 0;
 
         &-under{

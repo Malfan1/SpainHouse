@@ -1,0 +1,22 @@
+.about{
+    padding-top: 71px;
+    &__flex{
+        align-items: start;
+        justify-content: start;
+    }
+
+    &__h2{
+        margin-bottom: 32px;
+    }
+
+    &__p{
+        text-align: left;
+        padding-inline: 0;
+        width: 574px;
+        margin-bottom: 24px;
+
+        &-sub{
+            font-size: 18px;
+        }
+    }
+}

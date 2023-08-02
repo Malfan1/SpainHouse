@@ -1,0 +1,27 @@
+.foto{
+    border-top: none;
+    border-bottom: none;
+    border: 1px solid var(--#{$prefix}color-border);
+    width: 492px;
+    height: 387px;
+    margin-bottom: 90px;
+    margin-top: 50px;
+    padding-top: 0;
+
+    &__wrapper {
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+        position: relative;
+
+        &>img {
+            position: absolute;
+            left: 50%;
+            top: -55px;
+            transform: translateX(-50%);
+            width: initial;
+            height: initial;
+        }
+
+    }
+}
