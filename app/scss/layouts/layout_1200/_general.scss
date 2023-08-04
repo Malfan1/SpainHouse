@@ -43,5 +43,11 @@
         padding-inline: 50px;
         display: flex;
         justify-content: space-between;
+
+        &-last{
+            display: flex;
+            justify-content: space-between; 
+            padding-inline: 50px;
+        }
     }
 }

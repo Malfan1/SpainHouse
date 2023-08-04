@@ -1,0 +1,23 @@
+.insta{
+    &__flex{
+    margin: 0;  
+    margin-bottom: 132px;
+    }    
+
+    &__h2{
+        margin-bottom: 18px;
+    }
+
+    &__name{
+        font-size: 18px;
+    }
+
+    &__grid{
+        gap: 30px;
+    }
+
+    &__wrapper{
+        width: 378px;
+        height: 375px;
+    }
+}

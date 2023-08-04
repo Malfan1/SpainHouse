@@ -1,0 +1,38 @@
+.last{
+    text-align: left;
+    padding: 0;
+    margin-left: 79px;
+
+    &__flex {
+        display: flex;
+        width: 664px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        }
+
+    &__word{
+        text-align: left;
+        margin-top: 96px;
+
+        &-h2{
+            color: var(--#{$prefix}color-h2);
+            font-family: var(--#{$prefix}font-playfair);
+            font-size: 35px;
+            text-transform: uppercase;
+            margin-bottom: 23px;
+        }
+
+        &-first{
+            margin-bottom: 34px;
+        }
+
+        &-second{
+            margin-bottom: 28px;
+        }
+
+        &-third{
+            margin-bottom: 27px;
+        }
+    }
+}

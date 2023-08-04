@@ -9,7 +9,8 @@
 
     &__input{
         width: 100%;
-        padding: 15px 22px;
+        padding: 13px;
+        padding-inline: 29px 44px;
         border: 1px solid var(--#{$prefix}color-border);
         margin-bottom: 15px;
         outline: none;
@@ -19,12 +20,23 @@
         width: 100%;
         border: 1px solid var(--#{$prefix}color-border);
         outline: none;
-        padding-inline: 15px 22px;
         margin-bottom: 20px;
+        padding-block: 13px;
+        padding-inline: 29px 44px;
+        color: var(--#{$prefix}color-h2);
+        font-size: 18px;
         
         &>*{
             display: block;
         }
+
+        // &::after{
+        //     content: "";
+        //     background: url("../../../images/Polygon.svg") no-repeat;
+        //     height: 19px;
+        //     width: 13px;
+        //     display: inline-block;
+        // }
     }
 
     &__btn{

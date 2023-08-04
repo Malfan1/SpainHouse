@@ -1,5 +1,6 @@
 .recommend{
     padding: 0;
+    margin-bottom: 94px;
     &__h2 {
             @include h2(35px, 25px);
         }
@@ -49,11 +50,4 @@
             }
         }
 
-        &::after{
-            content: "";
-            width: 100%;
-            display: block;
-            height: 1px;
-            background: #000;
-        }
 }

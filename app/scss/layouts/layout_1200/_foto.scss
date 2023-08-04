@@ -13,8 +13,9 @@
         height: 100%;
         box-shadow: none;
         position: relative;
-
+        
         &>img {
+            box-shadow: 9px 9px 12px 0px rgba(0, 0, 0, 0.19);
             position: absolute;
             left: 50%;
             top: -55px;

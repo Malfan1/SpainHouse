@@ -10,7 +10,6 @@
     }
 
     &__word{
-        font-weight: 400;
         line-height: 28px;
         &-first{
             text-transform: uppercase;
@@ -37,13 +36,13 @@
         padding: 14px 65px;
 
         &-a{
-                color:var(--#{$prefix}color-border);
-                font-family: var(--#{$prefix}font-playfair);
-                font-size: 18px;
-                font-weight: 700;
-                line-height: 28px;
-                letter-spacing: 3.6px;
-                text-transform: uppercase;
+            color:var(--#{$prefix}color-border);
+            font-family: var(--#{$prefix}font-playfair);
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: 3.6px;
+            text-transform: uppercase;
         }
     }
 }
