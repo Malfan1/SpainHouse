@@ -1,6 +1,22 @@
 .find{
-    &__select{
-        padding-block: 13px;
-        padding-inline: 29px 44px;
+    &__flex{
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &__wrapper{
+        width: 242px;
+
+        &>input{
+            padding-block: 13px;
+        }
+
+        &-sel{
+            width: 242px;
+
+            &>select {
+                padding-block: 13px;
+            }  
+        }
     }
 }
