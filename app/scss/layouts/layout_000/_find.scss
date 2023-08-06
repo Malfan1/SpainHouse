@@ -9,22 +9,24 @@
 
     &__input{
         width: 100%;
-        padding-block: 15px;
-        padding-inline: 29px 44px;
         border: 1px solid var(--#{$prefix}color-border);
         margin-bottom: 15px;
         outline: none;
+        padding-block: 15px 16px;
+        padding-inline: 22px;
+
+        &::placeholder{
+            font-size: 18px;
+        }
     }
 
     &__select{
-        padding-block: 15px;
-        padding-inline: 29px 44px;
         width: 100%;
         border: 1px solid var(--#{$prefix}color-border);
         outline: none;
         margin-bottom: 20px;
-        padding-block: 13px;
-        padding-inline: 29px 44px;
+        padding-block: 15px 16px;
+        padding-inline: 22px;
         color: var(--#{$prefix}color-h2);
         font-size: 18px;
         

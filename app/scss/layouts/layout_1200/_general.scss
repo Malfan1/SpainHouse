@@ -32,7 +32,7 @@
 }
 
 .main-sec__bg7 {
-    background-position: 70% 0;
+    background-position: 20% 0;
     min-height: 657px;
 }
 
@@ -48,6 +48,14 @@
             display: flex;
             justify-content: space-between; 
             padding-inline: 50px;
+        }
+
+        &-his{
+            display: flex;
+            justify-content: space-between;
+            padding-inline: 50px; 
+            margin-top: 91px;
+            margin-bottom: 121px;
         }
     }
 }

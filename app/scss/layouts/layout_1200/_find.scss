@@ -2,21 +2,29 @@
     &__flex{
         display: flex;
         column-gap: 20px;
+        min-height: 47px;
     }
 
-    &__wrapper{
-        width: 242px;
+    &__input{
+        height: 100%;
+        width: initial;
 
-        &>input{
-            padding-block: 13px;
+        &_w{
+            width: 579px;
         }
+    }
 
-        &-sel{
-            width: 242px;
+    &__select{
+        width: 395px;
+        padding-block: 13px;
+        height: 100%;
 
-            &>select {
-                padding-block: 13px;
-            }  
+        &_w{
+            width: 461px;
         }
+    }
+
+    &__btn{
+        height: 53.33px;
     }
 }
