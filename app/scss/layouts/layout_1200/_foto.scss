@@ -4,9 +4,9 @@
     border: 1px solid var(--#{$prefix}color-border);
     width: 492px;
     height: 387px;
-    margin-bottom: 90px;
-    margin-top: 50px;
+    margin-top: 94px;
     padding-top: 0;
+    margin-bottom: 135px;
 
     &__wrapper {
         width: 100%;
@@ -24,5 +24,9 @@
             height: initial;
         }
 
+    }
+
+    &-2{
+        margin-bottom: 54px;
     }
 }

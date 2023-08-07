@@ -38,24 +38,27 @@
 
 .main{
     &__flex{
-        margin-top: 74px;
-        margin-bottom: 45px;
-        padding-inline: 50px;
+        margin-bottom: 90px;
         display: flex;
         justify-content: space-between;
+        margin: auto;
+        max-width: 1236px;
+        margin-top: 52px;
 
         &-last{
             display: flex;
             justify-content: space-between; 
-            padding-inline: 50px;
+            max-width: 1236px;
+            margin: auto;
         }
 
         &-his{
             display: flex;
             justify-content: space-between;
-            padding-inline: 50px; 
-            margin-top: 91px;
-            margin-bottom: 121px;
+            max-width: 1236px;
+            margin: auto;
+            margin-top: 51px;
+            margin-bottom: 46px;
         }
     }
 }

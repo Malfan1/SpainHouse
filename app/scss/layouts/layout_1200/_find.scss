@@ -1,7 +1,7 @@
 .find{
     &__flex{
         display: flex;
-        column-gap: 20px;
+        justify-content: space-between;
         min-height: 47px;
     }
 
@@ -26,5 +26,9 @@
 
     &__btn{
         height: 53.33px;
+
+        &-back{
+            display: none;
+        }
     }
 }

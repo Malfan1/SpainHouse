@@ -7,4 +7,8 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 46px;
     }
+
+    &__card{
+        margin: 0;
+    }
 }

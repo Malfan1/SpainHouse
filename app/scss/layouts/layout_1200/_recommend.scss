@@ -8,8 +8,7 @@
     &__grid{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        row-gap: 26px;
-        column-gap: 34px;
+        gap: 46px;
         margin-bottom: 65px;
     }
 
@@ -49,5 +48,4 @@
                 height: 710px;
             }
         }
-
 }
