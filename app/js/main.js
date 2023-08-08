@@ -18,6 +18,13 @@ $('.view__photos').slick({
     slidesToScroll: 1,
     asNavFor: '.view__photos-big',
     arrows: false,
+    responsive: [{
+    breakpoint: 1200,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 1,
+    }
+  }]
 });
 
  $('.view__photos-big').slick({
@@ -25,5 +32,5 @@ $('.view__photos').slick({
   slidesToScroll: 1,
   arrows: false,
   fade: true,
-  asNavFor: '.view__photos'
+  asNavFor: '.view__photos',
 });
