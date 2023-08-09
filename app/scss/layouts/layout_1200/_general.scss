@@ -66,6 +66,33 @@
             max-width: 1235px;
             margin: auto;
             margin-top: 50px;
+            margin-bottom: 45px;
         }
     }
+}
+
+.what{
+    &__flex{
+        align-items: start;
+        justify-content: start;
+    }
+
+    &__h2{
+        margin-bottom: 35px;
+    }
+
+    &__p{
+        line-height: 30px;
+    }
+
+    margin-bottom: 58px;
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    box-shadow: 9px 9px 12px 0px rgba(0, 0, 0, .19);
 }

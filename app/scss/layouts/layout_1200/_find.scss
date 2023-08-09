@@ -1,9 +1,10 @@
 .find{
     padding: 0;
     &__flex{
-        display: flex;
+        display: block;
         min-height: 47px;
         margin: auto;
+        margin-bottom: 44px;
     }
 
     &__input{

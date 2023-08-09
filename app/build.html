@@ -22,7 +22,9 @@
         <div class="my-container">
           <div class="header__flex">
             <div class="header__logo">
-              <img src="images/logo-bl.svg" alt="" />
+              <a href="index.html">
+                <img src="images/logo-bl.svg" alt="" />
+              </a>
             </div>
             <div class="header__burger">
               <img
@@ -77,7 +79,7 @@
           </div>
           <nav class="nav-mob__nav mb-4">
             <ul class="nav-mob__ul">
-              <li class="nav-mob__li"><a href="#">Главная</a></li>
+              <li class="nav-mob__li"><a href="index.html">Главная</a></li>
               <li class="nav-mob__li">
                 <a href="new-build.html">новостройки</a>
               </li>
@@ -112,11 +114,11 @@
         <section class="find">
           <div class="my-container">
             <div class="find__flex">
-              <button class="find__btn-back">
-                <a class="find__btn-back-a" href="#"
-                  >Вернуться к результатам поиска</a
-                >
-              </button>
+              <a class="find__btn-back-a" href="#" onclick="history.back();">
+                <button class="find__btn-back">
+                  <p class="find__btn-back-a">Вернуться к результатам поиска</p>
+                </button>
+              </a>
               <input class="find__input" type="text" placeholder="Артикул" />
               <select name="select" class="find__select" id="">
                 <option value="value1">Район</option>
@@ -273,9 +275,9 @@
                   пожалуйста, заполните форму ниже или позвоните нам.
                 </p>
                 <ul class="interest__numbers">
-                  <li class="interest__number">+79 951 120 365</li>
-                  <li class="interest__number">+34 951 120 365</li>
-                  <li class="interest__number">+79 951 120 365</li>
+                  <li class="interest__n">+79 951 120 365</li>
+                  <li class="interest__n">+34 951 120 365</li>
+                  <li class="interest__n">+79 951 120 365</li>
                 </ul>
 
                 <input
@@ -358,5 +360,6 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
     ></script>
     <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
   </body>
 </html>

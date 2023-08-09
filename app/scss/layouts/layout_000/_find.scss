@@ -1,10 +1,15 @@
 .find{
     padding-inline: 16px;
-    &__flex-main{
+    &__flex{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+        &-main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     &__input{
@@ -53,6 +58,8 @@
         font-weight: 700;
         letter-spacing: 2.8px;
         text-transform: uppercase;
+        justify-self: center;
+        align-self: center;
 
         &-back{
             width: 100%;
@@ -71,6 +78,8 @@
                 height: 25px;
                 left: 14px;
                 display: inline-block;
+                top: 50%;
+                transform: translateY(-50%);
 
             }
 
