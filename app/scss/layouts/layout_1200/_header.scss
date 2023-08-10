@@ -17,6 +17,9 @@
     }
 
     &__logo{
+        &:hover {
+                cursor: pointer;
+        }
     }
 
     &__lang{
@@ -110,5 +113,11 @@
                 background-position: contain;
             }
         }
+    }
+
+    &__burger{
+    &:hover {
+            cursor: pointer;
+    }
     }
 }
