@@ -1,11 +1,23 @@
 document.addEventListener("DOMContentLoaded", () => {
     const header = document.querySelector(".header-comp");
-    const main = document.querySelector(".main-sec__words")
-    window.addEventListener("scroll", () => { 
+    const main = document.querySelector(".main-sec__words");
+    const scrollItem = document.querySelectorAll(".scroll-item");
+
+    const scrollAnim = () => {
+        let windowCenter = (window.innerHeight / 1.1) + window.scrollY;
+        scrollItem.forEach(el => {
+            let scrollOffset = el.offsetTop + (el.offsetHeight / 1.1);
+            if (windowCenter >= scrollOffset) {
+                el.classList.add("anim-class");
+            } else {
+                el.classList.remove("anim-class");
+            }
+        })
+    };
+
+    const fixHeader = () => { 
         let scrollTop = window.scrollY;
         let mainCenter = main.offsetHeight / 2; 
-        console.log(scrollTop);
-        console.log(mainCenter);
 
         if (scrollTop >= mainCenter) {
             header.classList.add("fixed");
@@ -14,5 +26,13 @@ document.addEventListener("DOMContentLoaded", () => {
             header.classList.remove("fixed");
             main.style.marginTop = `0px`;
         }
+    }
+
+    fixHeader();
+    scrollAnim();
+    window.addEventListener("scroll", () => { 
+        fixHeader();
+        scrollAnim();
+
     })
 })
