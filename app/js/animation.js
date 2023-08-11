@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const scrollItem = document.querySelectorAll(".scroll-item");
 
     const scrollAnim = () => {
-        let windowCenter = (window.innerHeight / 1.1) + window.scrollY;
+        let windowCenter = (window.innerHeight / 1.05) + window.scrollY;
         scrollItem.forEach(el => {
-            let scrollOffset = el.offsetTop + (el.offsetHeight / 1.1);
+            let scrollOffset = el.offsetTop + (el.offsetHeight / 1.05);
             if (windowCenter >= scrollOffset) {
                 el.classList.add("anim-class");
             } else {
