@@ -2,8 +2,30 @@
    max-width: 911px;
    padding: 0;
    margin-right: 17px;
-
    &__h2{
     display: none;
    }
+
+      &__wrapper {
+         margin-right: 7px;
+         max-width: 123px;
+         &-big {
+            position: relative;
+            width: 100%;
+         }
+   
+         &:nth-child(3) {
+            margin-right: 0;
+         }
+      }
+
+      &__img{
+         width: 100%;
+      }
+
+      &__photos{
+         &-big{
+            margin-bottom: 10px;
+         }
+      }
 }

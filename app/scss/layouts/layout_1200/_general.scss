@@ -114,3 +114,26 @@
     transform: translateY(0);
     transition: opacity 0.3s, transform 0.4s ease-in-out;
 }
+
+
+
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    width: 29px;
+    height: 33px;
+    font-size: 0;
+}
+
+.slick-prev{
+    left: 31px;
+    background: var(--#{$prefix}color-border) url("../../../images/arr-prev.svg") no-repeat;
+    background-position: 50% 50%;
+}
+
+.slick-next{
+    right: 31px;
+    background: var(--#{$prefix}color-border) url("../../../images/arr-next.svg") no-repeat;
+    background-position: 50% 50%;
+}

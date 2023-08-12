@@ -14,23 +14,30 @@ function handleScroll({ target }) {
 }
 
 $('.view__photos').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: '.view__photos-big',
-    arrows: false,
-    responsive: [{
+  slidesToShow: 7,
+  slidesToScroll: 1,
+  arrows: false,
+  asNavFor: '.view__photos-big',
+  responsive: [{
     breakpoint: 1200,
     settings: {
       slidesToShow: 3,
       slidesToScroll: 1,
+      arrows: false,
     }
-  }]
+  }],
 });
 
- $('.view__photos-big').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
+$('.view__photos-big').slick({
   asNavFor: '.view__photos',
+  fade: true,
+  arrows: true,
+   responsive: [{
+     breakpoint: 1200,
+     settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+    }
+  }]
 });

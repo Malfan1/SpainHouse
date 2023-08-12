@@ -9,9 +9,13 @@
    }
 
    &__td{
-    &-1{
-        padding-left: 42px;
-        padding-block: 22.5px;
-    }
+        &-1{
+            padding-left: 42px;
+            padding-block: 15.13px;
+        }
+
+        &-2{
+            padding-block: 15.13px;
+        }
    }
 }
