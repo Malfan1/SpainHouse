@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>House</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header header-without">
+        <div class="my-container">
+          <div class="header__flex">
+            <div class="header__logo">
+              <a href="index.html">
+                <img src="images/logo-bl.svg" alt="" />
+              </a>
+            </div>
+            <div class="header__burger">
+              <img
+                class="js-burger"
+                id="burger"
+                src="images/burger.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="header-comp">
+        <div class="header-comp__flex">
+          <div class="header-comp__logo">
+            <a href="index.html">
+              <img src="images/logo-comp.svg" alt="" />
+            </a>
+          </div>
+          <ul class="header-comp__numbers">
+            <li class="header-comp__number">+79 951 120 365</li>
+            <li class="header-comp__number">+34 951 120 365</li>
+            <li class="header-comp__number">+79 951 120 365</li>
+          </ul>
+          <ul class="header-comp__lang">
+            <li class="header-comp__l">EN</li>
+            <li class="header-comp__l">RU</li>
+            <li class="header-comp__l">ES</li>
+          </ul>
+          <div class="header-comp__burger">
+            <img
+              class="js-burger"
+              id="burger"
+              src="images/burger-comp.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <nav class="nav-mob js-navmob">
+        <div class="nav-mob__block">
+          <div class="nav-mob__wrapper-svg">
+            <img class="js-close" src="images/x.svg" alt="" />
+          </div>
+          <div class="nav-mob__flex">
+            <div class="nav-mob__lang">
+              <span class="nav-mob__lang-sel">En</span>
+              <span class="nav-mob__lang-sel">Ru</span>
+              <span class="nav-mob__lang-sel">Es</span>
+            </div>
+            <h2 class="nav-mob__h2">Добро пожаловать в Spain House</h2>
+          </div>
+          <nav class="nav-mob__nav mb-4">
+            <ul class="nav-mob__ul">
+              <li class="nav-mob__li"><a href="index.html">Главная</a></li>
+              <li class="nav-mob__li">
+                <a href="new-build.html">новостройки</a>
+              </li>
+              <li class="nav-mob__li">
+                <a href="second.html">вторичная недвижимость</a>
+              </li>
+              <li class="nav-mob__li"><a href="rent.html">аренда</a></li>
+              <li class="nav-mob__li">
+                <a href="earth.html">земельные участки</a>
+              </li>
+              <li class="nav-mob__li"><a href="contact.html">контакты</a></li>
+            </ul>
+          </nav>
+          <div class="nav-mob__numbers ml-8 mb-24">
+            <p class="nav-mob__num mb-4">+34 951 120 365</p>
+            <p class="nav-mob__num mb-4">+79 951 120 365</p>
+            <p class="nav-mob__num mb-4">+79 951 120 365</p>
+          </div>
+
+          <div class="nav-mob__socials">
+            <div class="nav-mob__wrapper mr-5">
+              <img src="images/instanav.svg" alt="" />
+            </div>
+            <div class="nav-mob__wrapper">
+              <img src="images/facenav.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main">
+        <section class="find">
+          <div class="my-container">
+            <div class="find__flex">
+              <a class="find__btn-back-a" href="#" onclick="history.back();">
+                <button class="find__btn-back">
+                  <p class="find__btn-back-a">Вернуться к результатам поиска</p>
+                </button>
+              </a>
+              <input class="find__input" type="text" placeholder="Артикул" />
+              <select name="select" class="find__select" id="">
+                <option value="value1">Район</option>
+                <option value="value2">Sotogrande</option>
+                <option value="value3">Casares</option>
+                <option value="value4">Estepona</option>
+                <option value="value5">New Golden Mile</option>
+                <option value="value6">Benahavis</option>
+                <option value="value7">Marbella</option>
+                <option value="value8">Mijas Kosta</option>
+              </select>
+              <select class="find__select" name="select">
+                <option value="value1">Все типы</option>
+                <option value="value2" selected>Квартира</option>
+                <option value="value3">Таунхаус</option>
+                <option value="value3">Дом</option>
+              </select>
+              <button class="find__btn">
+                <a class="find__btn-a" href="#">Поиск</a>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <div class="main__flex-build">
+          <section class="view">
+            <div class="my-container">
+              <p class="view__h2">Элитная вилла в стиле модерн</p>
+              <div class="view__photos-big">
+                <div class="view__wrapper-big">
+                  <img class="view__img" src="images/view-big.png" alt="" />
+                </div>
+                <div class="view__wrapper-big">
+                  <img class="view__img" src="images/view-big.png" alt="" />
+                </div>
+                <div class="view__wrapper-big">
+                  <img class="view__img" src="images/view-big.png" alt="" />
+                </div>
+                <div class="view__wrapper-big">
+                  <img class="view__img" src="images/view-big.png" alt="" />
+                </div>
+                <div class="view__wrapper-big">
+                  <img class="view__img" src="images/view-big.png" alt="" />
+                </div>
+              </div>
+
+              <div class="view__photos">
+                <div class="view__wrapper">
+                  <img class="view__img" src="images/view.png" alt="" />
+                </div>
+                <div class="view__wrapper">
+                  <img class="view__img" src="images/view.png" alt="" />
+                </div>
+                <div class="view__wrapper">
+                  <img class="view__img" src="images/view.png" alt="" />
+                </div>
+                <div class="view__wrapper">
+                  <img class="view__img" src="images/view.png" alt="" />
+                </div>
+                <div class="view__wrapper">
+                  <img class="view__img" src="images/view.png" alt="" />
+                </div>
+
+                <div class="view__wrapper">
+                  <img class="view__img" src="images/view.png" alt="" />
+                </div>
+                <div class="view__wrapper">
+                  <img class="view__img" src="images/view.png" alt="" />
+                </div>
+                <div class="view__wrapper">
+                  <img class="view__img" src="images/view.png" alt="" />
+                </div>
+                <div class="view__wrapper">
+                  <img class="view__img" src="images/view.png" alt="" />
+                </div>
+                <div class="view__wrapper">
+                  <img class="view__img" src="images/view.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="table">
+            <div class="my-container">
+              <table class="table-t">
+                <tr>
+                  <th class="table__th" colspan="2">€ 4,192,000</th>
+                </tr>
+                <tr>
+                  <td class="table__td-1">Артикул</td>
+                  <td class="table__td-2">R3304774</td>
+                </tr>
+                <tr>
+                  <td class="table__td-1">Спальни</td>
+                  <td class="table__td-2">2</td>
+                </tr>
+                <tr>
+                  <td class="table__td-1">Ванные</td>
+                  <td class="table__td-2">2</td>
+                </tr>
+                <tr>
+                  <td class="table__td-1">Aвтостоянка</td>
+                  <td class="table__td-2">Да</td>
+                </tr>
+                <tr>
+                  <td class="table__td-1">Сад</td>
+                  <td class="table__td-2">Да</td>
+                </tr>
+                <tr>
+                  <td class="table__td-1">Бассейн</td>
+                  <td class="table__td-2">Да</td>
+                </tr>
+                <tr>
+                  <td class="table__td-1">Площадь</td>
+                  <td class="table__td-2">75 m2</td>
+                </tr>
+                <tr>
+                  <td class="table__td-1">Терраса</td>
+                  <td class="table__td-2">25 m2</td>
+                </tr>
+                <tr>
+                  <td class="table__td-1 table__none">Участок</td>
+                  <td class="table__td-2 table__none">0 m2</td>
+                </tr>
+              </table>
+            </div>
+          </section>
+        </div>
+
+        <section class="what">
+          <div class="my-container">
+            <div class="what__flex">
+              <h2 class="what__h2">описание</h2>
+              <p class="what__p">
+                Новая разработка: цены от € & nbsp; 386 000 до € & nbsp; 578
+                000. [Кровати: 2–2] [Ванны: 2–3] [Застроенная площадь: 80,00 м2
+                - 104,00 м2] Дом, в котором вы всегда хотели жить, предлагая
+                лучшее из всего. Это развитие является частью прекрасно
+                созданного жилого района с полностью функционирующими общими
+                частями. Он состоит из 32 домов с двумя и тремя спальнями,
+                включая пентхаусы и просторные сады, общественные бассейны и
+                поля для гольфа, расположенные в непосредственной близости от
+                комплекса. Сделайте большую часть просторных, фантастических
+                мест общего пользования с садами для взрослых. и детские
+                бассейны с деревянными зонтиками, детская игровая площадка,
+                корты для паддл-тенниса и тренажерный зал. Михас - город,
+                расположенный в провинции Малага, в самом сердце
+                Коста-дель-Соль, со старым кварталом, в котором есть все
+                очарование традиционной андалузской деревни. Там вы сможете
+                насладиться привлекательными произведениями архитектуры, такими
+                как часовня Вирхен-де-ла-Пенья, городские стены с руинами замка
+                и бесконечный список других достопримечательностей. Но не только
+                это. Михас предлагает все, что вам может понадобиться, потому
+                что, помимо того, что он расположен у подножия холмов Михас, он
+                также имеет невероятные пляжи и предлагает один из лучших
+                выборов полей для гольфа в этом районе. Это идеальное место для
+                любителей этого вида спорта.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="interest">
+          <div class="my-container">
+            <div class="interest__out">
+              <div class="interest__inner">
+                <h2 class="interest__h2">Заинтересовал объект?</h2>
+                <p class="interest__under">
+                  Для получения дополнительной информации об этом объекте,
+                  пожалуйста, заполните форму ниже или позвоните нам.
+                </p>
+                <ul class="interest__numbers">
+                  <li class="interest__n">+79 951 120 365</li>
+                  <li class="interest__n">+34 951 120 365</li>
+                  <li class="interest__n">+79 951 120 365</li>
+                </ul>
+
+                <input
+                  class="interest__input interest__input-text"
+                  type="text"
+                  placeholder="Артикул: R3304693"
+                />
+                <input
+                  class="interest__input interest__input-text"
+                  type="text"
+                  placeholder="Имя*"
+                />
+                <input
+                  class="interest__input interest__input-text"
+                  type="text"
+                  placeholder="Email адрес*"
+                />
+                <input
+                  class="interest__input interest__input-text"
+                  type="text"
+                  placeholder="Номер телефона*"
+                />
+                <textarea
+                  class="interest__textarea"
+                  placeholder="Сообщение*"
+                  class=""
+                ></textarea>
+                <label class="interest__label" for="yes">
+                  <input
+                    class="interest__input_check"
+                    type="checkbox"
+                    id="yes"
+                  />
+                  <p class="interest__rules">
+                    я принимаю
+                    <span class="interest__rules_line"
+                      >политику конфиденциальности</span
+                    >
+                  </p>
+                </label>
+                <button class="interest__btn">
+                  <a class="interest__btn-a" href="#">Отправить</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="my-container">
+          <div class="footer__flex">
+            <div class="footer__logo mb-8">
+              <img src="images/logo-footer.svg" alt="" />
+            </div>
+            <div class="footer__social">
+              <div class="footer__wrapper">
+                <img src="images/inst.svg" alt="" />
+              </div>
+
+              <div class="footer__wrapper">
+                <img src="images/facebook.svg" alt="" />
+              </div>
+            </div>
+            <p class="footer__words">
+              © Все права защищены. Агентство недвижимости Spain House
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+  </body>
+</html>

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Аренда</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="my-container">
+          <div class="header__flex">
+            <div class="header__logo">
+              <a href="index.html">
+                <img src="images/logo-mob.svg" alt="" />
+              </a>
+            </div>
+            <div class="header__burger">
+              <img class="js-burger" id="burger" src="images/menu.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="header-comp">
+        <div class="header-comp__flex">
+          <div class="header-comp__logo">
+            <a href="index.html">
+              <img src="images/logo-comp.svg" alt="" />
+            </a>
+          </div>
+          <ul class="header-comp__numbers">
+            <li class="header-comp__number">+79 951 120 365</li>
+            <li class="header-comp__number">+34 951 120 365</li>
+            <li class="header-comp__number">+79 951 120 365</li>
+          </ul>
+          <ul class="header-comp__lang">
+            <li class="header-comp__l">EN</li>
+            <li class="header-comp__l">RU</li>
+            <li class="header-comp__l">ES</li>
+          </ul>
+          <div class="header-comp__burger">
+            <img
+              class="js-burger"
+              id="burger"
+              src="images/burger-comp.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <nav class="nav-mob js-navmob">
+        <div class="nav-mob__block">
+          <div class="nav-mob__wrapper-svg">
+            <img class="js-close" src="images/x.svg" alt="" />
+          </div>
+          <div class="nav-mob__flex">
+            <div class="nav-mob__lang">
+              <span class="nav-mob__lang-sel">En</span>
+              <span class="nav-mob__lang-sel">Ru</span>
+              <span class="nav-mob__lang-sel">Es</span>
+            </div>
+            <h2 class="nav-mob__h2">Добро пожаловать в Spain House</h2>
+          </div>
+          <nav class="nav-mob__nav mb-4">
+            <ul class="nav-mob__ul">
+              <li class="nav-mob__li"><a href="index.html">Главная</a></li>
+              <li class="nav-mob__li">
+                <a href="new-build.html">новостройки</a>
+              </li>
+              <li class="nav-mob__li">
+                <a href="second.html">вторичная недвижимость</a>
+              </li>
+              <li class="nav-mob__li"><a href="#">аренда</a></li>
+              <li class="nav-mob__li">
+                <a href="earth.html">земельные участки</a>
+              </li>
+              <li class="nav-mob__li"><a href="contact.html">контакты</a></li>
+            </ul>
+          </nav>
+          <div class="nav-mob__numbers ml-8 mb-24">
+            <p class="nav-mob__num mb-4">+34 951 120 365</p>
+            <p class="nav-mob__num mb-4">+79 951 120 365</p>
+            <p class="nav-mob__num mb-4">+79 951 120 365</p>
+          </div>
+
+          <div class="nav-mob__socials">
+            <div class="nav-mob__wrapper mr-5">
+              <img src="images/instanav.svg" alt="" />
+            </div>
+            <div class="nav-mob__wrapper">
+              <img src="images/facenav.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main">
+        <section class="main-sec">
+          <div class="main-sec__bg5">
+            <div class="main-sec__words main-sec__words4">
+              <h1 class="main-sec__h1 scroll-item">Аренда</h1>
+              <p class="main-sec__p main-sec__p3 scroll-item">
+                РАССКАЖИТЕ НАМ О ЖИЗНИ ВАШЕЙ МЕЧТЫ, И МЫ НАЙДЕМ ЕЕ ДЛЯ ВАС
+              </p>
+              <p class="main-sec__p-under">посмотреть объекты</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="find scroll-item">
+          <div class="my-container">
+            <div class="find__flex-main">
+              <div class="find__flex">
+                <input class="find__input" type="text" placeholder="Артикул" />
+                <select name="select" class="find__select" id="">
+                  <option value="value1">Район</option>
+                  <option value="value2">Sotogrande</option>
+                  <option value="value3">Casares</option>
+                  <option value="value4">Estepona</option>
+                  <option value="value5">New Golden Mile</option>
+                  <option value="value6">Benahavis</option>
+                  <option value="value7">Marbella</option>
+                  <option value="value8">Mijas Kosta</option>
+                </select>
+                <select class="find__select" name="select">
+                  <option value="value1">Все типы</option>
+                  <option value="value2" selected>Квартира</option>
+                  <option value="value3">Таунхаус</option>
+                  <option value="value3">Дом</option>
+                </select>
+                <button class="find__btn">
+                  <a class="find__btn-a" href="#">Поиск</a>
+                </button>
+              </div>
+              <div class="find__btns scroll-item">
+                <p class="find__pag">
+                  <img src="images/next.svg" alt="" />
+                </p>
+                <p class="find__pag active">1</p>
+                <p class="find__pag">2</p>
+                <p class="find__pag">
+                  <img src="images/next1.svg" alt="" />
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="recommend">
+          <div class="my-container">
+            <div class="recommend__flex">
+              <div class="recommend__grid">
+                <a href="build.html">
+                  <div class="recommend__card scroll-item">
+                    <div class="recommend__wrapper">
+                      <img src="images/obj_1.png" alt="" />
+                    </div>
+                    <div class="recommend__info">
+                      <div class="recommend__border">
+                        <p class="recommend__name-above">
+                          Fuengirola - R3304693
+                        </p>
+                        <h3 class="recommend__name">
+                          Элитная вилла в стиле модерн
+                        </h3>
+                        <p class="recommend__price">€4,195,000</p>
+                        <div class="recommend__info-more text-sm">
+                          <p class="recommend__n inline-block mr-7 mb-1">
+                            Площадь: 300 м2
+                          </p>
+                          <p class="recommend__n inline-block">Спальни: 5</p>
+                          <p class="recommend__n">Терраса: 25м2</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="build.html">
+                  <div class="recommend__card scroll-item">
+                    <div class="recommend__wrapper">
+                      <img src="images/obj_2.png" alt="" />
+                    </div>
+                    <div class="recommend__info">
+                      <div class="recommend__border">
+                        <p class="recommend__name-above">
+                          Fuengirola - R3304693
+                        </p>
+                        <h3 class="recommend__name">
+                          Элитная вилла в стиле модерн
+                        </h3>
+                        <p class="recommend__price">€4,195,000</p>
+                        <div class="recommend__info-more text-sm">
+                          <p class="recommend__n inline-block mr-7 mb-1">
+                            Площадь: 300 м2
+                          </p>
+                          <p class="recommend__n inline-block">Спальни: 5</p>
+                          <p class="recommend__n">Терраса: 25м2</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="build.html">
+                  <div class="recommend__card scroll-item">
+                    <div class="recommend__wrapper">
+                      <img src="images/obj_3.png" alt="" />
+                    </div>
+                    <div class="recommend__info">
+                      <div class="recommend__border">
+                        <p class="recommend__name-above">
+                          Fuengirola - R3304693
+                        </p>
+                        <h3 class="recommend__name">
+                          Элитная вилла в стиле модерн
+                        </h3>
+                        <p class="recommend__price">€4,195,000</p>
+                        <div class="recommend__info-more text-sm">
+                          <p class="recommend__n inline-block mr-7 mb-1">
+                            Площадь: 300 м2
+                          </p>
+                          <p class="recommend__n inline-block">Спальни: 5</p>
+                          <p class="recommend__n">Терраса: 25м2</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="build.html">
+                  <div class="recommend__card scroll-item">
+                    <div class="recommend__wrapper">
+                      <img src="images/obj_4.png" alt="" />
+                    </div>
+                    <div class="recommend__info">
+                      <div class="recommend__border">
+                        <p class="recommend__name-above">
+                          Fuengirola - R3304693
+                        </p>
+                        <h3 class="recommend__name">
+                          Элитная вилла в стиле модерн
+                        </h3>
+                        <p class="recommend__price">€4,195,000</p>
+                        <div class="recommend__info-more text-sm">
+                          <p class="recommend__n inline-block mr-7 mb-1">
+                            Площадь: 300 м2
+                          </p>
+                          <p class="recommend__n inline-block">Спальни: 5</p>
+                          <p class="recommend__n">Терраса: 25м2</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="build.html">
+                  <div class="recommend__card scroll-item">
+                    <div class="recommend__wrapper">
+                      <img src="images/obj_1.png" alt="" />
+                    </div>
+                    <div class="recommend__info">
+                      <div class="recommend__border">
+                        <p class="recommend__name-above">
+                          Fuengirola - R3304693
+                        </p>
+                        <h3 class="recommend__name">
+                          Элитная вилла в стиле модерн
+                        </h3>
+                        <p class="recommend__price">€4,195,000</p>
+                        <div class="recommend__info-more text-sm">
+                          <p class="recommend__n inline-block mr-7 mb-1">
+                            Площадь: 300 м2
+                          </p>
+                          <p class="recommend__n inline-block">Спальни: 5</p>
+                          <p class="recommend__n">Терраса: 25м2</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="build.html">
+                  <div class="recommend__card scroll-item">
+                    <div class="recommend__wrapper">
+                      <img src="images/obj_2.png" alt="" />
+                    </div>
+                    <div class="recommend__info">
+                      <div class="recommend__border">
+                        <p class="recommend__name-above">
+                          Fuengirola - R3304693
+                        </p>
+                        <h3 class="recommend__name">
+                          Элитная вилла в стиле модерн
+                        </h3>
+                        <p class="recommend__price">€4,195,000</p>
+                        <div class="recommend__info-more text-sm">
+                          <p class="recommend__n inline-block mr-7 mb-1">
+                            Площадь: 300 м2
+                          </p>
+                          <p class="recommend__n inline-block">Спальни: 5</p>
+                          <p class="recommend__n">Терраса: 25м2</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="build.html">
+                  <div class="recommend__card scroll-item">
+                    <div class="recommend__wrapper">
+                      <img src="images/obj_3.png" alt="" />
+                    </div>
+                    <div class="recommend__info">
+                      <div class="recommend__border">
+                        <p class="recommend__name-above">
+                          Fuengirola - R3304693
+                        </p>
+                        <h3 class="recommend__name">
+                          Элитная вилла в стиле модерн
+                        </h3>
+                        <p class="recommend__price">€4,195,000</p>
+                        <div class="recommend__info-more text-sm">
+                          <p class="recommend__n inline-block mr-7 mb-1">
+                            Площадь: 300 м2
+                          </p>
+                          <p class="recommend__n inline-block">Спальни: 5</p>
+                          <p class="recommend__n">Терраса: 25м2</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="build.html">
+                  <div class="recommend__card scroll-item">
+                    <div class="recommend__wrapper">
+                      <img src="images/obj_4.png" alt="" />
+                    </div>
+                    <div class="recommend__info">
+                      <div class="recommend__border">
+                        <p class="recommend__name-above">
+                          Fuengirola - R3304693
+                        </p>
+                        <h3 class="recommend__name">
+                          Элитная вилла в стиле модерн
+                        </h3>
+                        <p class="recommend__price">€4,195,000</p>
+                        <div class="recommend__info-more text-sm">
+                          <p class="recommend__n inline-block mr-7 mb-1">
+                            Площадь: 300 м2
+                          </p>
+                          <p class="recommend__n inline-block">Спальни: 5</p>
+                          <p class="recommend__n">Терраса: 25м2</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="build.html">
+                  <div class="recommend__card scroll-item">
+                    <div class="recommend__wrapper">
+                      <img src="images/obj_1.png" alt="" />
+                    </div>
+                    <div class="recommend__info">
+                      <div class="recommend__border">
+                        <p class="recommend__name-above">
+                          Fuengirola - R3304693
+                        </p>
+                        <h3 class="recommend__name">
+                          Элитная вилла в стиле модерн
+                        </h3>
+                        <p class="recommend__price">€4,195,000</p>
+                        <div class="recommend__info-more text-sm">
+                          <p class="recommend__n inline-block mr-7 mb-1">
+                            Площадь: 300 м2
+                          </p>
+                          <p class="recommend__n inline-block">Спальни: 5</p>
+                          <p class="recommend__n">Терраса: 25м2</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="build.html">
+                  <div class="recommend__card scroll-item">
+                    <div class="recommend__wrapper">
+                      <img src="images/obj_2.png" alt="" />
+                    </div>
+                    <div class="recommend__info">
+                      <div class="recommend__border">
+                        <p class="recommend__name-above">
+                          Fuengirola - R3304693
+                        </p>
+                        <h3 class="recommend__name">
+                          Элитная вилла в стиле модерн
+                        </h3>
+                        <p class="recommend__price">€4,195,000</p>
+                        <div class="recommend__info-more text-sm">
+                          <p class="recommend__n inline-block mr-7 mb-1">
+                            Площадь: 300 м2
+                          </p>
+                          <p class="recommend__n inline-block">Спальни: 5</p>
+                          <p class="recommend__n">Терраса: 25м2</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="build.html">
+                  <div class="recommend__card scroll-item">
+                    <div class="recommend__wrapper">
+                      <img src="images/obj_3.png" alt="" />
+                    </div>
+                    <div class="recommend__info">
+                      <div class="recommend__border">
+                        <p class="recommend__name-above">
+                          Fuengirola - R3304693
+                        </p>
+                        <h3 class="recommend__name">
+                          Элитная вилла в стиле модерн
+                        </h3>
+                        <p class="recommend__price">€4,195,000</p>
+                        <div class="recommend__info-more text-sm">
+                          <p class="recommend__n inline-block mr-7 mb-1">
+                            Площадь: 300 м2
+                          </p>
+                          <p class="recommend__n inline-block">Спальни: 5</p>
+                          <p class="recommend__n">Терраса: 25м2</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="build.html">
+                  <div class="recommend__card scroll-item">
+                    <div class="recommend__wrapper">
+                      <img src="images/obj_4.png" alt="" />
+                    </div>
+                    <div class="recommend__info">
+                      <div class="recommend__border">
+                        <p class="recommend__name-above">
+                          Fuengirola - R3304693
+                        </p>
+                        <h3 class="recommend__name">
+                          Элитная вилла в стиле модерн
+                        </h3>
+                        <p class="recommend__price">€4,195,000</p>
+                        <div class="recommend__info-more text-sm">
+                          <p class="recommend__n inline-block mr-7 mb-1">
+                            Площадь: 300 м2
+                          </p>
+                          <p class="recommend__n inline-block">Спальни: 5</p>
+                          <p class="recommend__n">Терраса: 25м2</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="find__btns scroll-item">
+                <p class="find__pag">
+                  <img src="images/next.svg" alt="" />
+                </p>
+                <p class="find__pag active">1</p>
+                <p class="find__pag">2</p>
+                <p class="find__pag">
+                  <img src="images/next1.svg" alt="" />
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="my-container">
+          <div class="footer__flex">
+            <div class="footer__logo mb-8 scroll-item">
+              <img src="images/logo-footer.svg" alt="" />
+            </div>
+            <div class="footer__social">
+              <div class="footer__wrapper scroll-item">
+                <img src="images/inst.svg" alt="" />
+              </div>
+
+              <div class="footer__wrapper scroll-item">
+                <img src="images/facebook.svg" alt="" />
+              </div>
+            </div>
+            <p class="footer__words">
+              © Все права защищены.Агентство недвижимости Spain House
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+  </body>
+</html>
