@@ -2,10 +2,7 @@
 }
 
 .main-sec__bg2{
-   background:url("../../../images/sec-main.png");
-   background-repeat: no-repeat;
-   background-size: cover;
-   min-height: 812px;
+   @include bg(url("../../../images/sec-main.png"));
 }
 
 .main-sec__bg3 {
