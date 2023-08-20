@@ -2,31 +2,31 @@
 }
 
 .main-sec__bg2{
-   @include bg(url("../../../images/sec-main.png"));
+   @include bg(url("../images/sec-main.png"));
 }
 
 .main-sec__bg3 {
-   @include bg(url("../../../images/region-foto.png"));
+   @include bg(url("../images/region-foto.png"));
    background-position: 50% 50%;
 }
 
 .main-sec__bg4 {
-   @include bg(url("../../../images/second.png"));
+   @include bg(url("../images/second.png"));
    background-position: 38% 50%;
 }
 
 .main-sec__bg5 {
-   @include bg(url("../../../images/rent.png"));
+   @include bg(url("../images/rent.png"));
    background-position: 50% 50%;
 }
 
 .main-sec__bg6 {
-   @include bg(url("../../../images/earth.png"));
+   @include bg(url("../images/earth.png"));
    background-position: 60% 0%;
 }
 
 .main-sec__bg7 {
-   @include bg(url("../../../images/contact.png"));
+   @include bg(url("../images/contact.png"));
    background-position: 70% 0;
 }
 

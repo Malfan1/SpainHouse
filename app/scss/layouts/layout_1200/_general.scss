@@ -128,12 +128,12 @@
 
 .slick-prev{
     left: 31px;
-    background: var(--#{$prefix}color-border) url("../../../images/arr-prev.svg") no-repeat;
+    background: var(--#{$prefix}color-border) url("../images/arr-prev.svg") no-repeat;
     background-position: 50% 50%;
 }
 
 .slick-next{
     right: 31px;
-    background: var(--#{$prefix}color-border) url("../../../images/arr-next.svg") no-repeat;
+    background: var(--#{$prefix}color-border) url("../images/arr-next.svg") no-repeat;
     background-position: 50% 50%;
 }
