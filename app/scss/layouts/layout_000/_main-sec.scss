@@ -6,7 +6,7 @@
         margin-bottom: 58px;
     }
     &__bg{
-        @include bg(url("../../../images/main-foto-mob.png"));
+        @include bg(url("../images/main-foto-mob.png"));
     }
     
     &__words{
@@ -17,7 +17,7 @@
         justify-content: center;
         align-items: center;
         &::after{
-            content: url("../../../images/pol.svg");
+            content: url("../images/pol.svg");
             position: absolute;
             right: 50%;
             transform: translateX(50%);
